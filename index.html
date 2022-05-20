@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Eyeonic</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="./main.js"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar myNav">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-link" href="./index.html">
+                    <img class="navbar-logo" src="./assets/img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class=""><a href="index.html">Home</a></li>
+                <li class=""><a href="products.html">Product</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            
+            </div>
+        </div>
+    </nav>
+    
+        <video width="100%" autoplay muted loop>
+            <source src="./assets/video/Banner Live.mp4" type="video/mp4">
+        </video>
+
+        <!-- Information -->
+        <div class="about">
+            <h3 class="title wow fadeInUp" data-wow-delay="0.12s" data-wow-offset="50">TRUE EYEONIC, CHANGE VISION, NEW WORLD.</h3>
+            <p>We bring “real glasses for every customer”.</p>
+            <p>A true eyeglass that broadens your horizons, has the power to open up a beautiful new world.</p>
+            <p>Bring your dreams and your future through your glasses.</p>
+            <p>To do that, we always strive with pride as eyewear experts.</p>
+        </div>
+    </section>
+
+    <footer class="container-fluid footer">
+        <div class="row" >
+            <div id="contact" class="col-lg-5 contact-left">
+                <div class="contact text-center">
+                    <form action="" onsubmit="return test()">
+                        <h3 class="contact-header">CONTACT US</h3>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="txtName" placeholder="Your Name" name="name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="txtMail" placeholder="Your Email" name="mail">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-7 contact-right">
+                <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.319281359248!2d106.66408561474427!3d10.786840061951121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed2392c44df%3A0xd2ecb62e0d050fe9!2zRlBUIEFwdGVjaCBIQ00gLSBI4buHIFRo4buRbmcgxJDDoG8gVOG6oW8gTOG6rXAgVHLDrG5oIFZpw6puIFF14buRYyBU4bq_IChTaW5jZSAxOTk5KQ!5e0!3m2!1svi!2s!4v1651921247175!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </footer>
+    
+
+</body>
+</html>
